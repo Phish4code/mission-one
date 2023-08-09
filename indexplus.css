@@ -23,8 +23,6 @@ body {
 }
 
 .hero {
-    /* font-weight: bold; */
-
     background-color: #19191955;
     border-radius: 100px;
     height: 150px;
@@ -37,7 +35,6 @@ body {
 }
 
 .hero h1 {
-    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -47,9 +44,8 @@ body {
     font-size: 70px;
     text-shadow:#00ffaa;
 }
-.navbar {
-    
 
+.navbar {
     font-weight: bold;
     background-color: #171717e4;
     color: rgba(255, 255, 255, 0.94);
@@ -59,7 +55,6 @@ body {
     margin-right: 12%;
     margin-top: 0%;
     font-size: 25px;
-
 }
 
 .main-nav {
@@ -69,9 +64,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-
 }
-
 
 .home {
     text-decoration: none;
@@ -128,9 +121,7 @@ legend {
     font-size: 20px;
     font-weight: bold;
     border-style: solid black;
-
 }
-
 
 .footer {
     background-color: #3333337a;
@@ -141,13 +132,9 @@ legend {
     width: 100%;
     padding: 0;
     border-radius: 50px;
-
 }
 
-
-
 .contact-form {
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,7 +143,6 @@ legend {
     border-radius: 30px;
     margin: 30px 525px 0px;
     font-weight: 600;
-
     background-color: rgba(255, 255, 255, 0.479);
 }
 
@@ -166,16 +152,9 @@ legend {
 
 .contact-form:hover {
     background-color:  rgba(255, 255, 255, 0.711) ;
-    
 }
 
-
-
 .main-text {
-    /* background-image: url(ascended_space_by_chaosfissure_d9gguup-414w-2x.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
     background-color: #00000098;
     color: rgb(255, 255, 255);
     font-size: 42px;
@@ -185,7 +164,6 @@ legend {
     align-items: center;
     border-style: double;
     margin: 10px;
-
     border-color: #333;
     border-radius: 10px;
 }
@@ -194,7 +172,6 @@ legend {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 #submit-button {
@@ -205,7 +182,6 @@ legend {
     justify-content: center;
     background-color: #0000003c;
     margin: 5px;
-
 }
 
 #submit-button:hover {
@@ -217,22 +193,20 @@ legend {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 #facebook-icon {
-
     color: #2452b1;
-
 }
+
 #youtube-icon {
     color: rgb(203, 25, 25);
-
 }
+
 #linkedin-icon {
     color: #0d865e;
-
 }
+
 #twitter-icon {
     color: rgb(0, 163, 222);
 }
@@ -256,7 +230,7 @@ legend {
     background-repeat: no-repeat;
     background-size: cover;
     border-style: double;
-    border-color: #0d865e;
+    border-color: #1fff17;
     color: rgba(255, 0, 0, 0);
     background-color: rgba(0, 74, 246, 0.244);
     width: 520px;
@@ -270,11 +244,9 @@ legend {
 
 
 #main-content {
-
     display: flex;
     /* justify-content: space-between; */
     border-radius: 30px;
-
 }
 
 .main-images {
@@ -293,12 +265,10 @@ legend {
   .image:hover {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     transform: translateY(-10px);
- 
   }
 
   .image1 {
     border-radius: 30px;
-    
     padding: px;
     width: 100%;
     transition: all 1s;
@@ -308,7 +278,6 @@ legend {
   .image1:hover {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     transform: translateY(-10px);
- 
   }
 
   h1 {
