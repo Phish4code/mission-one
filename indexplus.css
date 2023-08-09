@@ -26,17 +26,18 @@ body {
     /* font-weight: bold; */
 
     background-color: #19191955;
-    background-size: cover;
-    border-radius: 50px;
+    border-radius: 100px;
     height: 150px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    padding: 5px;
 }
 
 .hero h1 {
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -44,6 +45,7 @@ body {
     border-radius: 40px;
     background-color: #3f3f3f9a;
     font-size: 70px;
+    text-shadow:#00ffaa;
 }
 .navbar {
     
@@ -91,11 +93,11 @@ body {
     color: #000000;
 }
 
-.resources{
+.free-images {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-.resources:hover {
+.free-images:hover {
     background-color: rgba(255, 255, 255, 0.707);
     border-radius: 10px;
     color: #000000;
@@ -152,14 +154,19 @@ legend {
     align-items: center;
     /* position: fixed; */
     border-radius: 30px;
-    margin: 0px 525px 0px;
-
+    margin: 30px 525px 0px;
+    font-weight: 600;
 
     background-color: rgba(255, 255, 255, 0.479);
 }
 
+.contact-form h1 {
+    margin-top: 15px;
+}
+
 .contact-form:hover {
     background-color:  rgba(255, 255, 255, 0.711) ;
+    
 }
 
 
@@ -176,8 +183,6 @@ legend {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    /* padding-bottom: 0;
-    padding-top: 0; */
     border-style: double;
     margin: 10px;
 
@@ -204,7 +209,7 @@ legend {
 }
 
 #submit-button:hover {
-    background-color: goldenrod;
+    background-color: rgb(29, 116, 255);
     color: white;
 }
 
@@ -232,53 +237,6 @@ legend {
     color: rgb(0, 163, 222);
 }
 
-/* .right-div {
-    
-    border-radius: 50px;
-    margin: 50px 20px;
-    background-color: #0055ff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    font-size: 14px;
-    transition: width 5s, height 2s;
-
-}
-
-.right-div:hover {
-    color: #0055ff28;
-    background-color: rgba(0, 153, 255, 0.212);
-    width: 500px;
-    height: 1000px;
-
-}
-
-.left-div {
-    border-radius: 50px;
-    margin: 50px 20px;
-    background-color: rgb(188, 3, 3);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    right: 0; 
-    font-size: 15px;
-    transition: width 5s height 2s;
-}
-
-.left-div:hover {
-    color: rgba(255, 0, 0, 0);
-    background-color: rgba(255, 0, 0, 0.197);
-    width: 500px;
-    height: 1000px;
-} */
-
 .email-pill {
     border-radius: 50px;
     margin: 55px 5px;
@@ -294,28 +252,65 @@ legend {
 }
 
 .email-pill:hover {
+    background-image: url(night-owl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: #0d865e;
     color: rgba(255, 0, 0, 0);
-    background-color: rgba(65, 0, 114, 0.429);
+    background-color: rgba(0, 74, 246, 0.244);
     width: 520px;
-    height: 580px;
+    height: 570px;
 }
 
 .email-pill h1 {
-    font-size: 15px;
-    margin: 15px;
+    font-size: 14px;
+    margin: 5px;
 }
 
-.left-img {
+
+#main-content {
+
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+    /* justify-content: space-between; */
+    border-radius: 30px;
+
 }
 
-.right-img {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-}
+.main-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .image {
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 450px;
+    transition: all 1s;
+  }
 
+  .image:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+ 
+  }
+
+  .image1 {
+    border-radius: 30px;
+    
+    padding: px;
+    width: 100%;
+    transition: all 1s;
+    grid-column: 1 / 4;
+  }
+
+  .image1:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+ 
+  }
+
+  h1 {
+    text-align: center;
+  }
